@@ -30,3 +30,20 @@ console.log("welcome to loupe")
 // promise
 // async/await
 // onclick,onchange,oninput
+
+
+
+// setTimeout(param11, param22)
+// param1 = function() {}
+// param2 = timer
+const body = document.body
+body.style.backgroundColor = "red"
+setTimeout(() => {
+    console.log("green")
+    body.style.backgroundColor = "yellow"
+    },
+3000)
+
+setTimeout( () =>{
+    body.style.backgroundColor = "green"
+}, 6000)
